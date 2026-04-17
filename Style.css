@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #f4f4f4;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.menu {
+  padding: 50px 20px;
+}
+
+.menu-items {
+  display: flex;
+  gap: 20px;
+}
+
+.item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
